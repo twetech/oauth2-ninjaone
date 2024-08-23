@@ -16,7 +16,7 @@ Usage is the same as The League's OAuth client, using `\League\OAuth2\Client\Pro
 ### Authorization Code Flow
 
 ```php
-$provider = new League\OAuth2\Client\Provider\Snapchat([
+$provider = new League\OAuth2\Client\Provider\Ninjaone([
     'clientId'          => '{snapchat-client-id}',
     'clientSecret'      => '{snapchat-client-secret}',
     'redirectUri'       => 'https://example.com/callback-url'

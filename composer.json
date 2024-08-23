@@ -1,0 +1,19 @@
+{
+    "name": "twetech/oauth2-ninjaone",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3",
+        "league/oauth2-client": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Twetech\\Oauth2Ninjaone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "o-psi",
+            "email": "andymalsb@gmail.com"
+        }
+    ]
+}
